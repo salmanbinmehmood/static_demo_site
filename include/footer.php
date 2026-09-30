@@ -1,0 +1,58 @@
+<footer class="footer">
+    <div class="container">
+        <div class="footer_main">
+            <div class="footerAbout">
+                <a href="" class="fooLogo">
+                    <img src='assets/images/logo.svg' alt='Logo' class='img__contain'>
+                </a>
+                <p>Joey Crum is a visionary leader, author, and advocate for personal empowerment. In There Is An “I” In Win, he challenges the age-old notion that individualism must be sacrificed for team success. </p>
+            </div>
+            <div class="footerRight">
+                <ul class="footerNav">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About the author</a></li>
+                    <li><a href="about-book.php">About the book</a></li>
+                    <li><a href="our-books.php">our Book</a></li>
+                    <li><a href="blogs.php">Blogs</a></li>
+                </ul>
+                <ul class="footerCont">
+                    <li>
+                        <a href="#">
+                            <div class="footerIcon"><i class="fi fi-rr-map-marker"></i></div>
+                            <div class="footerCVont"><span>Our Location:</span> Demo Address Area-12345</div>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <div class="footerIcon"><i class="fi fi-rr-envelope"></i></div>
+                            <div class="footerCVont"><span>Our Location:</span> info@joeycrum.com</div>
+                        </a></li>
+                    <li><a href="#">
+                            <div class="footerIcon"><i class="fi fi-rr-phone-call"></i></div>
+                            <div class="footerCVont"><span>Call Us On:</span> (123) 456-7890</div>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyMain">
+        <div class="container">
+            <div class="copy_innerMain">
+                <p class="copyCon">Copyright © 2025 Joey Crum - All Right Reserved.</p>
+                <ul class="socialIcons">
+                    <li><a href="#"><img src='assets/images/brand1.svg' alt='facebook' class='img__contain'></a></li>
+                    <li><a href="#"><img src='assets/images/brand2.svg' alt='insta' class='img__contain'></a></li>
+                    <li><a href="#"><img src='assets/images/brand3.svg' alt='twitter' class='img__contain'></a></li>
+                    <li><a href="#"><img src='assets/images/brand4.svg' alt='youtube' class='img__contain'></a></li>
+                    <li><a href="#"><img src='assets/images/brand5.svg' alt='amazone' class='img__contain'></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<?php include 'include/js.php'; ?>
+</body>
+
+</html>

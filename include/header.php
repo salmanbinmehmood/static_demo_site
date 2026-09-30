@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <?php include 'include/css.php'; ?>
+    <title><?php echo isset($title) ? $title : 'Home';  ?></title>
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header class="header">
+        <div class="container">
+            <div class="main_header">
+                <a href="index.php" class="logo"><img src='assets/images/logo.svg' alt='Logo' class='img__contain'></a>
+                <div class="headerRight">
+                    <ul class="mainNAv">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About the author <i class="fi fi-rr-angle-small-down"></i></a></li>
+                        <li><a href="about-book.php">About the book</a></li>
+                        <li><a href="our-books.php">our Book</a></li>
+                        <li><a href="blogs.php">Blogs</a></li>
+                    </ul>
+                    <ul class="headerLogin">
+                        <li><a href="javascript:;" class="searchBtn"><i class="fi fi-rr-search"></i></a></li>
+                        <li><a href="login.php" class="LoginBtn"><i class="fi fi-rr-user"></i> Login</a></li>
+                    </ul>
+                    <div class="headerBtn">
+                        <a href="our-books.php" class="themeBtn">Order the Book</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->

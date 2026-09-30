@@ -1,0 +1,676 @@
+<?php
+$title = 'Home';
+include 'include/header.php';
+?>
+<!-- hero section   -->
+<section class="banner">
+    <div class="bannerCircle"></div>
+    <div class="banner__img">
+        <img src='assets/images/hero.webp' alt='Hero' class='img__cover'>
+    </div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="bannerContent">
+                    <div class="subHead">Welcome To Our Website!</div>
+                    <h1>There Is an I in Win</h1>
+                    <p class="subPara">Unlock the mindset, methods, and discipline behind extraordinary success</p>
+                    <p class="para">Joey Crum is a visionary leader, author, and advocate for personal empowerment. In There Is An “I” In Win, he challenges the age-old notion that individualism must be sacrificed for team success. Joey shows how embracing the “I” initiative, innovation, and integrity transforms not only personal growth but team impact.</p>
+                    <div class="bannerBtns">
+                        <a href="our-books.php" class="themeBtn gradient">Order the Book</a>
+                        <a href="about.php" class="themeBtn">About the Author</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="bannerBooks">
+                    <div class="bannerBook --big">
+                        <img src='assets/images/book.webp' alt='Book' class='img__contain'>
+                    </div>
+                    <div class="bannerBook --small">
+                        <img src='assets/images/book.webp' alt='Book' class='img__contain'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- hero section   -->
+<!-- counter section   -->
+<section id="stats">
+    <div class="container">
+        <div class="counterMainBox">
+            <div class="counterBox">
+                <div class="counter-box">
+                    <span class="counter" data-start="0" data-end="8" data-duration="2000"></span>
+                    <p>Empowering Chapters</p>
+                </div>
+
+                <div class="counter-box">
+                    <span class="counter" data-start="0" data-end="100" data-duration="2000"></span>
+                    <p>Transformational Insights</p>
+                </div>
+
+                <div class="counter-box">
+                    <span class="counter" data-start="0" data-end="25" data-duration="2000"></span>
+                    <p>Readers Inspired Worldwide</p>
+                </div>
+                <div class="counter-box">
+                    <span class="counter" data-start="0" data-end="1" data-duration="2000"></span>
+                    <p>Helping You Win From Within</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- counter section   -->
+<!-- About Section   -->
+<section class="about">
+    <div class="Aboutbox"></div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-5">
+                <div class="aboutImg">
+                    <img src='assets/images/about.webp' alt='About' class='img__cover'>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <div class="joeyBox">Joey Crum
+                    <div class="smallCircle --top"></div>
+                    <div class="smallCircle --bottom"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="aboutContent">
+                    <div class="sectionHead">
+                        <div class="secSubHead">About The Author</div>
+                        <h2>Meet Joey <span>Crum</span></h2>
+                    </div>
+                    <p class="para">Joey Crum is a visionary leader, author, and advocate for personal empowerment. In There Is An “I” In Win, he challenges the age-old notion that individualism must be sacrificed for team success. Joey shows how embracing the “I” initiative, innovation, and integrity transforms not only personal growth but team impact.</p>
+                    <div class="aboutBtns">
+                        <a href="#" class="aboutBtn"><span class="aboutIco"><img src='assets/images/ico1.webp' alt='icon 1' class='img__contain'></span>
+                            <p>High-performance entrepreneur</p>
+                        </a>
+                        <a href="#" class="aboutBtn"><span class="aboutIco"><img src='assets/images/ico2.webp' alt='icon 2' class='img__contain'></span>
+                            <p>Motivational leader</p>
+                        </a>
+                        <a href="#" class="aboutBtn"><span class="aboutIco"><img src='assets/images/ico3.webp' alt='icon 3' class='img__contain'></span>
+                            <p>Experienced author</p>
+                        </a>
+                    </div>
+                    <h3 class="aboutLine">
+                        For over 30 years, has been at the forefront of cultural change, accelerating
+                        <div class="collenImg">
+                            <img src='assets/images/collen.webp' alt='Collen' class='img__contain'>
+                        </div>
+                    </h3>
+                    <div class="aboutInnerBtn">
+                        <a href="#" class="themeBtn gradient dark">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Section   -->
+<!-- About The Book Section    -->
+<section class="aboutBook">
+    <div class="bookBg">
+        <img src='assets/images/bookbg.webp' alt='Book Background' class='img__cover'>
+    </div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="bookContent">
+                    <div class="sectionHead --white">
+                        <div class="secSubHead">About The Book</div>
+                        <h2>There Is an I <span>in Win</span></h2>
+                    </div>
+                    <p class="para">Through powerful storytelling, personal insights, and faith-based reflection, author Joey Crum challenges the long-held belief that individual ambition must take a back seat to collective harmony.</p>
+                    <p class="para">Drawing from his own life experiences ranging from childhood struggles and leadership lessons to moments of failure and personal transformation, Crum makes the case for embracing the misunderstood "I" in every pursuit.</p>
+                    <ul class="bookList">
+                        <li>Why the book is important</li>
+                        <li>Who it benefits</li>
+                    </ul>
+                    <div class="bannerBtns BookBtns">
+                        <a href="#" class="themeBtn gradient">Learn More</a>
+                        <a href="#" class="themeBtn">Order the Book</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="bookAboutImg">
+                    <div class="girlImg">
+                        <img src='assets/images/girl.webp' alt='Girl' class='img__cover'>
+                    </div>
+                    <div class="booksImg">
+                        <img src='assets/images/books.webp' alt='Books' class='img__contain'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About The Book Section    -->
+<!-- Five Force Section    -->
+<section class="fiveForce">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="sectionHead text-center">
+                    <div class="secSubHead">Winning Pillars</div>
+                    <h2>The Five Forces That Shape <span>Every Win</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="mainFiveForceSec">
+            <div class="fiveForceBtns">
+                <div class="fiveForceBtn --bt1">
+                    <div class="forceIcon">
+                        <img src='assets/images/icon1.webp' alt='Icon1' class='img__contain'>
+                    </div>
+                    <p>Discipline</p>
+                </div>
+                <div class="fiveForceBtn --bt2">
+                    <div class="forceIcon">
+                        <img src='assets/images/icon2.webp' alt='Icon2' class='img__contain'>
+                    </div>
+                    <p>Resilience</p>
+                </div>
+                <div class="fiveForceBtn --bt3">
+                    <div class="forceIcon">
+                        <img src='assets/images/icon3.webp' alt='Icon3' class='img__contain'>
+                    </div>
+                    <p>Leadership</p>
+                </div>
+            </div>
+            <div class="fiveForceBook">
+                <img src='assets/images/book1.webp' alt='Icon4' class='img__contain'>
+            </div>
+            <div class="fiveForceBtns">
+                <div class="fiveForceBtn --bt4">
+                    <div class="forceIcon">
+                        <img src='assets/images/icon4.webp' alt='Icon5' class='img__contain'>
+                    </div>
+                    <p>Mindset</p>
+                </div>
+                <div class="fiveForceBtn --bt5">
+                    <div class="forceIcon">
+                        <img src='assets/images/icon5.webp' alt='Icon6' class='img__contain'>
+                    </div>
+                    <p>Strategy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Five Force Section-->
+<!-- Brought To Section -->
+<section class="broughtUs">
+    <div class="broughtBg">
+        <img src='assets/images/broughtbg.webp' alt='' class='img__cover'>
+    </div>
+    <div class="topLine"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="sectionHead --white">
+                    <div class="secSubHead">Interactive Timeline:</div>
+                    <h2>The Journey That <span>Brought Us Here</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="mainBroughtCrds">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="broghtCrd">
+                        <div class="broughtIcon">
+                            <img src='assets/images/bico1.webp' alt='' class='img__contain'>
+                        </div>
+                        <div class="boughtContent">
+                            <h5>Customized Solutions</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="broghtCrd">
+                        <div class="broughtIcon">
+                            <img src='assets/images/bico2.webp' alt='' class='img__contain'>
+                        </div>
+                        <div class="boughtContent">
+                            <h5>Experienced Team</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="broghtCrd">
+                        <div class="broughtIcon">
+                            <img src='assets/images/bico3.webp' alt='' class='img__contain'>
+                        </div>
+                        <div class="boughtContent">
+                            <h5>Attention to Detail</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="broghtCrd">
+                        <div class="broughtIcon">
+                            <img src='assets/images/bico4.webp' alt='' class='img__contain'>
+                        </div>
+                        <div class="boughtContent">
+                            <h5>Timely Delivery</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Brought To Section -->
+<!-- testimonials Section -->
+<section class="testimonials">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="sectionHead text-center">
+                    <div class="secSubHead">Our Testimonails</div>
+                    <h2>See what they Are <span>Saying</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="testimonialsSlider depth-slider">
+            <div class="testItem">
+                <div class="testCard">
+                    <div class="testCollen --top">
+                        <img src='assets/images/collen.webp' alt='collen' class='img__contain'>
+                    </div>
+                    <div class="testCollen --bottom">
+                        <img src='assets/images/collen.webp' alt='collen' class='img__contain'>
+                    </div>
+                    <div class="testCorner --top"><img src='assets/images/corner.webp' alt='corner' class='img__contain'></div>
+                    <div class="testCorner --bottom"><img src='assets/images/corner.webp' alt='corner' class='img__contain'></div>
+                    <ul class="testratting">
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                    </ul>
+                    <div class="testContent">
+                        <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="testName">
+                            Rush Harrison
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testItem">
+                <div class="testCard">
+                    <div class="testCollen --top">
+                        <img src='assets/images/collen.webp' alt='collen' class='img__contain'>
+                    </div>
+                    <div class="testCollen --bottom">
+                        <img src='assets/images/collen.webp' alt='collen' class='img__contain'>
+                    </div>
+                    <div class="testCorner --top"><img src='assets/images/corner.webp' alt='corner' class='img__contain'></div>
+                    <div class="testCorner --bottom"><img src='assets/images/corner.webp' alt='corner' class='img__contain'></div>
+                    <ul class="testratting">
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                    </ul>
+                    <div class="testContent">
+                        <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="testName">
+                            Rush Harrison
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testItem">
+                <div class="testCard">
+                    <div class="testCollen --top">
+                        <img src='assets/images/collen.webp' alt='collen' class='img__contain'>
+                    </div>
+                    <div class="testCollen --bottom">
+                        <img src='assets/images/collen.webp' alt='collen' class='img__contain'>
+                    </div>
+                    <div class="testCorner --top"><img src='assets/images/corner.webp' alt='corner' class='img__contain'></div>
+                    <div class="testCorner --bottom"><img src='assets/images/corner.webp' alt='corner' class='img__contain'></div>
+                    <ul class="testratting">
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                    </ul>
+                    <div class="testContent">
+                        <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="testName">
+                            Rush Harrison
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testItem">
+                <div class="testCard">
+                    <div class="testCollen --top">
+                        <img src='assets/images/collen.webp' alt='collen' class='img__contain'>
+                    </div>
+                    <div class="testCollen --bottom">
+                        <img src='assets/images/collen.webp' alt='collen' class='img__contain'>
+                    </div>
+                    <div class="testCorner --top"><img src='assets/images/corner.webp' alt='corner' class='img__contain'></div>
+                    <div class="testCorner --bottom"><img src='assets/images/corner.webp' alt='corner' class='img__contain'></div>
+                    <ul class="testratting">
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                    </ul>
+                    <div class="testContent">
+                        <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="testName">
+                            Rush Harrison
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testItem">
+                <div class="testCard">
+                    <div class="testCollen --top">
+                        <img src='assets/images/collen.webp' alt='collen' class='img__contain'>
+                    </div>
+                    <div class="testCollen --bottom">
+                        <img src='assets/images/collen.webp' alt='collen' class='img__contain'>
+                    </div>
+                    <div class="testCorner --top"><img src='assets/images/corner.webp' alt='corner' class='img__contain'></div>
+                    <div class="testCorner --bottom"><img src='assets/images/corner.webp' alt='corner' class='img__contain'></div>
+                    <ul class="testratting">
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                    </ul>
+                    <div class="testContent">
+                        <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="testName">
+                            Rush Harrison
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testItem">
+                <div class="testCard">
+                    <div class="testCollen --top">
+                        <img src='assets/images/collen.webp' alt='collen' class='img__contain'>
+                    </div>
+                    <div class="testCollen --bottom">
+                        <img src='assets/images/collen.webp' alt='collen' class='img__contain'>
+                    </div>
+                    <div class="testCorner --top"><img src='assets/images/corner.webp' alt='corner' class='img__contain'></div>
+                    <div class="testCorner --bottom"><img src='assets/images/corner.webp' alt='corner' class='img__contain'></div>
+                    <ul class="testratting">
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                        <li><i class="fi fi-ss-star"></i></li>
+                    </ul>
+                    <div class="testContent">
+                        <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="testName">
+                            Rush Harrison
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- testimonials Section -->
+<!-- Blogs Section   -->
+<section class="blogs">
+    <div class="blogBg">
+        <img src='assets/images/bookbg.webp' alt='Blog Background' class='img__cover'>
+    </div>
+    <div class="container">
+        <div class="sectionHead --white">
+            <div class="secSubHead">Our Blogs</div>
+            <h2>Explore Latest <span>blogs</span></h2>
+        </div>
+        <div class="blogsMainSlider">
+            <div class="blogItem">
+                <a href="#" class="blogCrd">
+                    <div class="blogImg">
+                        <img src='assets/images/blog1.webp' alt='Blog Image' class='img__cover'>
+                    </div>
+                    <div class="blogContent">
+                        <div class="blogTop">
+                            <div class="blogType">
+                                <i class="fi fi-rr-calendar-day"></i>
+                                <p>24 Nov 2025</p>
+                            </div>
+                            <div class="blogType">
+                                <i class="fi fi-rr-globe"></i>
+                                <p>By Lorem Ipsum</p>
+                            </div>
+                        </div>
+                        <h5 class="blogHead">
+                            Winning mindset
+                        </h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and ina na typesetting industry. Lorem Ipsum has been the.</p>
+                        <div class="readMoreBtn">
+                            Read More <i class="fi fi-rr-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="blogItem">
+                <a href="#" class="blogCrd">
+                    <div class="blogImg">
+                        <img src='assets/images/blog2.webp' alt='Blog Image' class='img__cover'>
+                    </div>
+                    <div class="blogContent">
+                        <div class="blogTop">
+                            <div class="blogType">
+                                <i class="fi fi-rr-calendar-day"></i>
+                                <p>24 Nov 2025</p>
+                            </div>
+                            <div class="blogType">
+                                <i class="fi fi-rr-globe"></i>
+                                <p>By Lorem Ipsum</p>
+                            </div>
+                        </div>
+                        <h5 class="blogHead">
+                            Winning mindset
+                        </h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and ina na typesetting industry. Lorem Ipsum has been the.</p>
+                        <div class="readMoreBtn">
+                            Read More <i class="fi fi-rr-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="blogItem">
+                <a href="#" class="blogCrd">
+                    <div class="blogImg">
+                        <img src='assets/images/blog3.webp' alt='Blog Image' class='img__cover'>
+                    </div>
+                    <div class="blogContent">
+                        <div class="blogTop">
+                            <div class="blogType">
+                                <i class="fi fi-rr-calendar-day"></i>
+                                <p>24 Nov 2025</p>
+                            </div>
+                            <div class="blogType">
+                                <i class="fi fi-rr-globe"></i>
+                                <p>By Lorem Ipsum</p>
+                            </div>
+                        </div>
+                        <h5 class="blogHead">
+                            Winning mindset
+                        </h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and ina na typesetting industry. Lorem Ipsum has been the.</p>
+                        <div class="readMoreBtn">
+                            Read More <i class="fi fi-rr-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="blogItem">
+                <a href="#" class="blogCrd">
+                    <div class="blogImg">
+                        <img src='assets/images/blog4.webp' alt='Blog Image' class='img__cover'>
+                    </div>
+                    <div class="blogContent">
+                        <div class="blogTop">
+                            <div class="blogType">
+                                <i class="fi fi-rr-ca   lendar-day"></i>
+                                <p>24 Nov 2025</p>
+                            </div>
+                            <div class="blogType">
+                                <i class="fi fi-rr-globe"></i>
+                                <p>By Lorem Ipsum</p>
+                            </div>
+                        </div>
+                        <h5 class="blogHead">
+                            Winning mindset
+                        </h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and ina na typesetting industry. Lorem Ipsum has been the.</p>
+                        <div class="readMoreBtn">
+                            Read More <i class="fi fi-rr-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blogs Section   -->
+<!-- breakthroughUs Section   -->
+<section class="breakthrough">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="breackthroContent">
+                    <div class="sectionHead text-center">
+                        <div class="secSubHead">Coaching Inquiry</div>
+                        <h2>Your Breakthrough <span>Begins Here.</span></h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="breakImg">
+                    <img src='assets/images/breakImg.webp' alt='Breakthrough' class='img__cover'>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- breakthroughUs Section   -->
+<!-- contact Section  -->
+<section class="Contact">
+    <div class="contactBg">
+        <img src='assets/images/broughtbg.webp' alt='Contact Background' class='img__cover'>
+    </div>
+    <div class="mainContact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="sectionHead --white">
+                        <div class="secSubHead">Contact Info</div>
+                        <h2>Get In Touch With Us</h2>
+                        <p>Complete the form below if you'd like more information, or you can email my team directly at Infodemolink@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="conatctBox">
+                        <form action="" class="contactForm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="contactFeild">
+                                        <label for="name">First Name</label>
+                                        <input type="text" id="name" placeholder="First Name" name="name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="contactFeild">
+                                        <label for="lname">Last Name</label>
+                                        <input type="text" id="lname" placeholder="Last Name" name="lname">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="contactFeild">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" id="email" placeholder="Email Address" name="email">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="contactFeild">
+                                        <label for="phone">Phone Number</label>
+                                        <input type="tel" id="phone" placeholder="Phone Number" name="phone">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="contactFeild">
+                                        <label for="message">Message</label>
+                                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="contactFeildBtn">
+                                        <button class="themeBtn gradient dark" type="submit">Submit Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contactImageMain">
+                        <div class="contactImg">
+                            <img src='assets/images/cntImg.webp' alt='Contact Image' class='img__cover'>
+                        </div>
+                        <div class="contBox">
+                            <div class="contBg">
+                                <img src='assets/images/contbg.webp' alt='Contact Background' class='img__contain'>
+                            </div>
+                            <ul class="contInfo">
+                                <li><a href="#"><i class="fi fi-rr-visit"></i>
+                                        <div class="info"><span>Location</span>Demo Address lorem ipsum Area-12345 </div>
+                                    </a></li>
+                                <li><a href="#"><i class="fi fi-rr-envelope"></i>
+                                        <div class="info"><span>Email Address</span>info@joeycrum.com</div>
+                                    </a></li>
+                                <li><a href="#"><i class="fi fi-rr-phone-call"></i>
+                                        <div class="info"><span>Call Us Now</span>(123) 456-789</div>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- contact Section  -->
+<?php include 'include/footer.php' ?>
