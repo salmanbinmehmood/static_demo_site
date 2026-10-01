@@ -1,7 +1,66 @@
-<?php
-$title = 'Home';
-include 'include/header.html';
-?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="include/css.html"> -->
+
+    <!--Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<!--Fonts -->
+<!-- Flaticon -->
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+<!-- Flaticon -->
+<!-- Favicon -->
+<link rel="shortcut icon" href="assets/images/logo.svg" type="image/x-icon">
+<!-- Favicon -->
+<!--other css -->
+<link rel="stylesheet" href="assets/css/slick.css">
+<link rel="stylesheet" href="assets/css/bootstrap.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--other css -->
+
+<!-- Main Css  -->
+<link rel="stylesheet" href="assets/css/style.css">
+<!-- Main Css  -->
+
+<link rel="preload" as="image" href="assets/images/hero.webp" fetchpriority="high">
+
+    <!-- <?php include 'include/css.html'; ?> -->
+    <title><?php echo isset($title) ? $title : 'Home';  ?></title>
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header class="header">
+        <div class="container">
+            <div class="main_header">
+                <a href="index.php" class="logo"><img src='assets/images/logo.svg' alt='Logo' class='img__contain'></a>
+                <div class="headerRight">
+                    <ul class="mainNAv">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About the author <i class="fi fi-rr-angle-small-down"></i></a></li>
+                        <li><a href="about-book.php">About the book</a></li>
+                        <li><a href="our-books.php">our Book</a></li>
+                        <li><a href="blogs.php">Blogs</a></li>
+                    </ul>
+                    <ul class="headerLogin">
+                        <li><a href="javascript:;" class="searchBtn"><i class="fi fi-rr-search"></i></a></li>
+                        <li><a href="login.php" class="LoginBtn"><i class="fi fi-rr-user"></i> Login</a></li>
+                    </ul>
+                    <div class="headerBtn">
+                        <a href="our-books.php" class="themeBtn">Order the Book</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
 <!-- hero section   -->
 <section class="banner">
     <div class="bannerCircle"></div>
@@ -673,4 +732,68 @@ include 'include/header.html';
     </div>
 </section>
 <!-- contact Section  -->
-<?php include 'include/footer.html' ?>
+<!-- <?php include 'include/footer.html' ?> -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer_main">
+            <div class="footerAbout">
+                <a href="" class="fooLogo">
+                    <img src='assets/images/logo.svg' alt='Logo' class='img__contain'>
+                </a>
+                <p>Joey Crum is a visionary leader, author, and advocate for personal empowerment. In There Is An “I” In Win, he challenges the age-old notion that individualism must be sacrificed for team success. </p>
+            </div>
+            <div class="footerRight">
+                <ul class="footerNav">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About the author</a></li>
+                    <li><a href="about-book.php">About the book</a></li>
+                    <li><a href="our-books.php">our Book</a></li>
+                    <li><a href="blogs.php">Blogs</a></li>
+                </ul>
+                <ul class="footerCont">
+                    <li>
+                        <a href="#">
+                            <div class="footerIcon"><i class="fi fi-rr-map-marker"></i></div>
+                            <div class="footerCVont"><span>Our Location:</span> Demo Address Area-12345</div>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <div class="footerIcon"><i class="fi fi-rr-envelope"></i></div>
+                            <div class="footerCVont"><span>Our Location:</span> info@joeycrum.com</div>
+                        </a></li>
+                    <li><a href="#">
+                            <div class="footerIcon"><i class="fi fi-rr-phone-call"></i></div>
+                            <div class="footerCVont"><span>Call Us On:</span> (123) 456-7890</div>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyMain">
+        <div class="container">
+            <div class="copy_innerMain">
+                <p class="copyCon">Copyright © 2025 Joey Crum - All Right Reserved.</p>
+                <ul class="socialIcons">
+                    <li><a href="#"><img src='assets/images/brand1.svg' alt='facebook' class='img__contain'></a></li>
+                    <li><a href="#"><img src='assets/images/brand2.svg' alt='insta' class='img__contain'></a></li>
+                    <li><a href="#"><img src='assets/images/brand3.svg' alt='twitter' class='img__contain'></a></li>
+                    <li><a href="#"><img src='assets/images/brand4.svg' alt='youtube' class='img__contain'></a></li>
+                    <li><a href="#"><img src='assets/images/brand5.svg' alt='amazone' class='img__contain'></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- <?php include 'include/js.html'; ?> -->
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+
+</html>
